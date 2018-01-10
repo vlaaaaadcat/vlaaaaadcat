@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ex.5</title>
+</head>
+<body>
+	<h2>Запись на курсы</h2>
+	<hr>
+	<form action method="POST">
+		<p>
+			Имя:<br>
+			<input type="text" name="name" required placeholder="Enter your name">
+		</p>
+		<p>
+			Язык программирования:<br>
+			<input type="radio" name="program_language">C++<br>
+			<input type="radio" name="program_language">PHP<br>
+			<input type="radio" name="program_language">Python<br>
+		</p>
+		<p>
+			Дополнительная информация:<br>
+			<textarea rows="3" maxlength="150" cols="32">Есть опыт программирования на С++
+			</textarea>
+		</p>
+		<p>
+			Секретное слово:<br>
+			<input type="password" name="pass">
+		</p>
+		<p>
+			<input type="submit" name="submit" value="Отправить">
+			<input type="reset" name="reset" value="Очистить">
+		</p>
+	</form>
+</body>
+</html>
